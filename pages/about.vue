@@ -4,11 +4,11 @@
       当サイトについて
     </h2>
     <TextCard>
-      当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、愛知県内外の有志が開設したものです。<br />
+      当サイトは、道内の新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために作成されました。開発は、「xxxxx」が行っています。<br />
       <br />
       複製・改変が許されたオープンソースライセンスで公開されている、<a target="_blank" href="https://stopcovid19.metro.tokyo.lg.jp/">東京都公式新型コロナウイルス対策サイト</a>の<a target="_blank" href="https://github.com/tokyo-metropolitan-gov/covid19" rel="noopener">仕組み</a>を利用しています。<br />
       <br />
-      愛知県による公式情報と客観的な数値をわかりやすく伝えることで、愛知県にお住まいの方や、愛知県内に拠点を持つ企業の方、愛知県を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。
+      千葉県による公式情報と客観的な数値をわかりやすく伝えることで、千葉県にお住まいの方や、千葉県内に拠点を持つ企業の方、千葉県を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。
     </TextCard>
     <TextCard title="ブラウザ環境について">
       当サイトは以下の環境でご覧いただくことを推奨いたします。<br />
@@ -95,8 +95,8 @@
       >をご確認ください。
     </TextCard>
     <TextCard title="お問い合わせ先">
-      Code for Nagoya<br />
-      <a href="mailto:info@code4.nagoya">info@code4.nagoya</a>
+      xxxxxxxxxx<br />
+      <a href="xxxx">xxxxx</a>
     </TextCard>
   </div>
 </template>

@@ -9,8 +9,8 @@ const headers = [
 ]
 
 type DataType = {
-  検査確定日: Date | null
-  発症日: Date | null
+  検査確定日: Date
+  発症日: Date
   居住地: string | null
   '年代・性別': string | null
   備考: string | null

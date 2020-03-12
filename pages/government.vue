@@ -9,6 +9,7 @@
       title="神奈川県"
       link="https://www.pref.kanagawa.jp/osirase/1369/"
     />
+     <TextCard title="愛知県" link="https://stopcovid19.code4.nagoya/" />
   </div>
 </template>
 

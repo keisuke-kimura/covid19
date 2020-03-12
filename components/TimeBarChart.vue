@@ -111,7 +111,7 @@ export default {
               data: this.chartData.map(d => {
                 return d.transition
               }),
-              backgroundColor: '#bd3f4c',
+              backgroundColor: '#004BED',
               borderWidth: 0
             }
           ]
@@ -127,7 +127,7 @@ export default {
             data: this.chartData.map(d => {
               return d.cumulative
             }),
-            backgroundColor: '#bd3f4c',
+            backgroundColor: '#004BED',
             borderWidth: 0
           }
         ]
