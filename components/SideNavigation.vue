@@ -10,7 +10,7 @@
       </v-icon>
       <nuxt-link to="/" class="SideNavigation-HeadingLink">
         <div class="SideNavigation-Logo">
-          <img src="/logo.svg" :alt="$t('Tokyo')" />
+          千葉県
         </div>
         <h1 class="SideNavigation-Heading">
           {{ $t('COVID-19') }}<br />{{ $t('Measures site') }}
@@ -37,35 +37,7 @@
           <v-divider v-show="item.divider" class="SideNavigation-Divider" />
         </v-container>
       </v-list>
-      <div class="SideNavigation-Footer">
-        <div class="SideNavigation-SocialLinkContainer">
-          <a
-            href="http://line.naver.jp/ti/p/%40aichipref"
-            target="_blank"
-            rel="noopener"
-          >
-            <img src="/line.png" alt="LINE" />
-          </a>
-          <a
-            href="https://twitter.com/pref_aichi"
-            target="_blank"
-            rel="noopener"
-          >
-            <img src="/twitter.png" alt="Twitter" />
-          </a>
-          <a
-            href="https://www.facebook.com/aichikoho"
-            target="_blank"
-            rel="noopener"
-          >
-            <img src="/facebook.png" alt="Facebook" />
-          </a>
-        </div>
-        <!-- <small class="SideNavigation-Copyright" lang="en">
-          Copyright &copy; 2020 Tokyo Metropolitan Government. All Rights
-          Reserved.
-        </small> -->
-      </div>
+
     </div>
   </div>
 </template>
@@ -81,7 +53,9 @@
     "Chiba Prefecture Government": "千葉県",
     "COVID-19 Task Force": "新型コロナウイルス感染症対策本部",
     "The latest updates": "県内の最新感染動向",
-    "for Families with children": "お子様をお持ちの皆様へ",
+    "About COVID-19": "新型コロナウイルス感染症について",
+    "About Telephone Center": "電話窓口について",
+    "Returnee and Contact Center": "帰国者・接触者相談センターについて",
     "for Citizens": "県民の皆様へ",
     "for Enterprises and Employees": "企業の皆様・はたらく皆様へ",
     "Official statements from Task Force": "千葉県新型コロナウイルス感染症対策本部会議報",
@@ -114,18 +88,18 @@ export default {
           icon: 'mdi-chart-timeline-variant',
           title: this.$t('The latest updates'),
           link: '/',
+        },
+        {
+          icon: 'covid',
+          title: this.$t('About COVID-19'),
+          link: 'https://www.pref.chiba.lg.jp/shippei/kansenshou/2019-ncov.html',
           divider: true
         },
         {
           icon: 'parent',
-          title: this.$t('for Families with children'),
-          link: '/parent'
-        },
-        {
-          icon: 'mdi-account-multiple',
-          title: this.$t('for Citizens'),
-          link:
-            'https://www.pref.aichi.jp/soshiki/kenkotaisaku/novel-coronavirus.html'
+          title: this.$t('Returnee and Contact Center'),
+          link: 
+            'https://www.pref.chiba.lg.jp/kenfuku/kansenshou/singata-korona-soudan.html'
         },
         {
           icon: 'mdi-domain',
@@ -136,16 +110,15 @@ export default {
         {
           title: this.$t('Official statements from Task Force'),
           link:
-            'https://www.pref.aichi.jp/soshiki/kenkotaisaku/novel-coronavirus-taisakuhonbu.html'
+            'https://www.pref.chiba.lg.jp/kenfuku/kansenshou/ncov/index.html'
         },
         {
-          title: this.$t('Cancelled public events'),
-          link:
-            'https://jsite.mhlw.go.jp/aichi-roudoukyoku/news_topics/2019_covid-19_event.html'
+          title: this.$t('Event Info'),
+          link: 'https://maruchiba.jp/oshirase/r1/0225event-news.html'
         },
         {
           title: this.$t('Message from Governor Omura'),
-          link: 'https://www.pref.aichi.jp/chiji/message/index00.html'
+          link: 'https://www.pref.chiba.lg.jp/kenfuku/kansenshou/ncov/mes-chiji.html'
         },
         {
           title: this.$t('About us'),
@@ -153,7 +126,11 @@ export default {
         },
         {
           title: this.$t('Government official website'),
+<<<<<<< HEAD
           link: 'https://www.pref.chiba.jp/',
+=======
+          link: 'https://www.pref.chiba.lg.jp/',
+>>>>>>> 3846cb258ab8c86a4540516bc8f8e9fcbbdb89f3
           divider: true
         },
         {

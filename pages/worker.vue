@@ -18,24 +18,31 @@ export default {
     return {
       items: [
         {
-          title: '新型コロナウイルス感染症対策緊急つなぎ資金',
-          link: 'https://www.pref.aichi.jp/soshiki/kinyu/kinyu0304.html',
+          title: '中小企業者支援について',
+          link: 'https://www.pref.chiba.lg.jp/keishi/ncov/ncov-index.html',
           body:
-            '新型コロナウイルス感染症により事業活動に影響を受けている中小企業等を対象とした緊急つなぎ資金制度です。融資限度額は5千万円で、信用保証料を愛知県が全額補助します。'
+            '相談窓口・支援策について'
         },
         {
           title:
-            '新型コロナウイルス感染症対策として「テレワーク」の活用をご検討ください！',
-          link: 'https://www.pref.aichi.jp/soshiki/rodofukushi/telework.html',
+            '農林漁業者向けの支援',
+          link: 'https://www.pref.chiba.lg.jp/nousui/nousaigaisien/n_coronavirus_agri.html',
           body:
-            '国内での新型コロナウイルス感染拡大を受け、県内企業の皆様におかれましては、在宅勤務を可能とする「テレワーク」や時差出勤の導入をご検討ください。'
+            '新型コロナウイルス感染症の影響により、農林漁業経営の維持が困難な農林漁業者を対象に、一時的な影響に対し、緊急的に対応するために必要な長期資金を日本政策金融公庫が融資しています。'
         },
         {
-          title: '特別労働相談窓口',
+          title: '介護サービス事業者向け',
           link:
-            'https://jsite.mhlw.go.jp/aichi-roudoukyoku/news_topics/2019_covid-19soudan.html?fbclid=IwAR01RhExhMRTZ0CZTdwvfDEWVf_qABG8U2-QCnkw-77u9L2SiqL3SPp3aGk',
+            'https://www.pref.chiba.lg.jp/hoken/tetsuzuki/kaigo/ncov-index.html',
           body:
-            '新型コロナウイルス感染症に関連して、労働問題で困ったことがあれば、ご相談ください。'
+            ''
+        },
+        {
+          title: '社会福祉事業者向け',
+          link:
+            'https://www.pref.chiba.lg.jp/kenshidou/shafuku-hojin/ncov-index.html',
+          body:
+            ''
         }
       ]
     }

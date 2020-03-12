@@ -1,7 +1,7 @@
 <template>
   <v-app class="app">
     <div v-if="loading" class="loader">
-      <img src="/logo.svg" alt="東京都" />
+      <!--<img src="/logo.svg" alt="千葉県" />-->
       <scale-loader color="#A83945" />
     </div>
     <div v-else class="appContainer">
@@ -26,6 +26,7 @@ import Vue from 'vue'
 import { MetaInfo } from 'vue-meta'
 import ScaleLoader from 'vue-spinner/src/ScaleLoader.vue'
 import SideNavigation from '@/components/SideNavigation.vue'
+
 
 type LocalData = {
   isOpenNavigation: boolean
@@ -61,7 +62,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://stopcovid19.code4.nagoya${this.$route.path}`
+          href: `https://chiba-covid19.herokuapp.com/${this.$route.path}`
         }
       ]
     }

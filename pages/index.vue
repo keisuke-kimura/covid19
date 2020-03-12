@@ -27,7 +27,7 @@
           :date="Data.patients.date"
           :unit="'人'"
           :url="
-            'https://www.pref.aichi.jp/soshiki/kenkotaisaku/novel-coronavirus.html'
+            'https://www.pref.chiba.lg.jp/shippei/press/2019/ncov-index.html'
           "
         />
       </v-col>
@@ -41,7 +41,21 @@
           :date="Data.patients.date"
           :info="sumInfoOfPatients"
           :url="
-            'https://www.pref.aichi.jp/soshiki/kenkotaisaku/novel-coronavirus.html'
+            'https://www.pref.chiba.lg.jp/shippei/press/2019/ncov-index.html'
+          "
+        />
+      </v-col>
+
+      <v-col cols="12" md="6" class="DataCard">
+        <data-table
+          :title="'無症状病原体保有者の属性'"
+          :title-id="'attributes-of-confirmed-cases'"
+          :chart-data="patientsAsymptomaticTable"
+          :chart-option="{}"
+          :date="Data.patients_asymptomatic.date"
+          :info="2"
+          :url="
+            'https://www.pref.chiba.lg.jp/shippei/press/2019/ncov-index.html'
           "
         />
       </v-col>
@@ -129,8 +143,8 @@ export default {
     const patientsGraph = formatGraph(Data.patients_summary.data)
     // 感染者数
     const patientsTable = formatTable(Data.patients.data)
-    // 退院者グラフ
-    // const dischargesGraph = formatGraph(Data.discharges_summary.data)
+    // 無症状病原体保有者数
+    const patientsAsymptomaticTable = formatTable(Data.patients_asymptomatic.data)
 
     // 相談件数
     // const contactsGraph = formatGraph(Data.contacts.data)
@@ -168,6 +182,7 @@ export default {
       Data,
       patientsTable,
       patientsGraph,
+      patientsAsymptomaticTable,
       // dischargesGraph,
       // contactsGraph,
       // querentsGraph,
@@ -179,7 +194,7 @@ export default {
       sumInfoOfPatients,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
-        title: '愛知県内の最新感染動向',
+        title: '千葉県内の最新感染動向',
         date: Data.lastUpdate
       },
       newsItems: News.newsItems,

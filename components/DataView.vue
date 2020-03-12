@@ -26,7 +26,7 @@
         target="_blank"
         rel="noopener"
       >
-        愛知県内の発生状況について
+        千葉県内の発生状況について
         <v-icon class="ExternalLinkIcon" size="15">
           mdi-open-in-new
         </v-icon>
