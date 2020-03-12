@@ -27,6 +27,7 @@ import { MetaInfo } from 'vue-meta'
 import ScaleLoader from 'vue-spinner/src/ScaleLoader.vue'
 import SideNavigation from '@/components/SideNavigation.vue'
 
+
 type LocalData = {
   isOpenNavigation: boolean
   loading: boolean
