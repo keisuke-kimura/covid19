@@ -75,18 +75,18 @@
   "ja": {
     "Navi Open": "サイドメニュー項目を開く",
     "Navi Close": "サイドメニュー項目を閉じる",
-    "Aichi": "愛知県",
+    "Chiba": "千葉県",
     "COVID-19": "新型コロナウイルス感染症",
     "Measures site": "対策サイト",
-    "Aichi Prefecture Government": "愛知県",
-    "Tokyo COVID-19 Task Force": "新型コロナウイルス感染症対策本部",
+    "Chiba Prefecture Government": "千葉県",
+    "COVID-19 Task Force": "新型コロナウイルス感染症対策本部",
     "The latest updates": "県内の最新感染動向",
     "for Families with children": "お子様をお持ちの皆様へ",
     "for Citizens": "県民の皆様へ",
     "for Enterprises and Employees": "企業の皆様・はたらく皆様へ",
-    "Official statements from Task Force": "愛知県新型コロナウイルス感染症対策本部会議報",
-    "Cancelled public events": "愛知労働局主催等 中止又は延期するイベント等",
-    "Government official website": "愛知県公式ホームページ",
+    "Official statements from Task Force": "千葉県新型コロナウイルス感染症対策本部会議報",
+    "Cancelled public events": "千葉労働局主催等 中止又は延期するイベント等",
+    "Government official website": "千葉県公式ホームページ",
     "Message from Governor Omura": "知事からのメッセージ",
     "About us": "当サイトについて",
     "Other local Government": "他自治体の対策サイト"
@@ -153,7 +153,7 @@ export default {
         },
         {
           title: this.$t('Government official website'),
-          link: 'https://www.pref.aichi.jp/',
+          link: 'https://www.pref.chiba.jp/',
           divider: true
         },
         {
