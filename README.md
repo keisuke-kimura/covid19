@@ -1,5 +1,7 @@
 # 千葉県 新型コロナウイルス感染症対策サイト
 
+[![千葉県 新型コロナウイルス感染症対策サイト（非公式）](https://chiba-covid19.mypl.net/ogp.png)](https://chiba-covid19.mypl.net/)
+
 ### 日本語
 
 ## 貢献の仕方
@@ -34,3 +36,7 @@ $ yarn dev
 # serve with hot reload at localhost:3000
 $ docker-compose up --build
 ```
+
+### 開発・本番環境への反映
+
+`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://chiba-covid19.mypl.net/ が更新されます。
