@@ -62,7 +62,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://chiba-covid19.herokuapp.com/${this.$route.path}`
+          href: `https://chiba-covid19.mypl.net/${this.$route.path}`
         }
       ]
     }
