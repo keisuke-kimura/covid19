@@ -243,10 +243,10 @@ export default {
 .open {
   overflow-x: hidden;
   overflow-y: auto;
+  height: 100vh;
   @include lessThan($small) {
-    position: fixed;
+    position: absolute;
     top: 0;
-    bottom: 0;
     left: 0;
     display: block !important;
     width: 100%;
