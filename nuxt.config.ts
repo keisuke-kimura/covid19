@@ -51,22 +51,20 @@ const config: Configuration = {
       {
         hid: 'twitter:card',
         name: 'twitter:card',
-        content: 'summary_large_image'
+        content: 'large_image'
       },
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: '@code4nagoya'
       },
       {
         hid: 'twitter:creator',
         name: 'twitter:creator',
-        content: '@code4nagoya'
       },
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: ''
+        content: 'https://chiba-covid19.mypl.net/ogp.png'
       }
     ],
     link: [
