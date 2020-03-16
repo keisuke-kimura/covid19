@@ -24,18 +24,18 @@ const config: Configuration = {
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: '千葉県 新型コロナウイルス感染症対策サイト'
+        content: '千葉県 新型コロナウイルス感染症対策サイト（非公式）'
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
         hid: 'og:url',
         property: 'og:url',
-        content: ''
+        content: 'https://chiba-covid19.mypl.net/'
       },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: '千葉県 新型コロナウイルス感染症対策サイト'
+        content: '千葉県 新型コロナウイルス感染症対策サイト（非公式）'
       },
       {
         hid: 'og:description',
@@ -46,7 +46,7 @@ const config: Configuration = {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: ''
+        content: 'https://chiba-covid19.mypl.net/ogp.png'
       },
       {
         hid: 'twitter:card',
@@ -150,7 +150,7 @@ const config: Configuration = {
     }
   },
   googleAnalytics: {
-    id: 'UA-160333748-1'
+    id: 'UA-4697942-17'
   },
   build: {
     postcss: {
@@ -173,8 +173,8 @@ const config: Configuration = {
     hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
-    name: '千葉県 新型コロナウイルス感染症対策サイト',
-    theme_color: '#A83945',
+    name: '千葉県 新型コロナウイルス感染症対策サイト（非公式）',
+    theme_color: '#0c6eb8',
     background_color: '#ffffff',
     display: 'standalone',
     Scope: '/',

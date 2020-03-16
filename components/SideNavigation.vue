@@ -10,7 +10,7 @@
       </v-icon>
       <nuxt-link to="/" class="SideNavigation-HeadingLink">
         <div class="SideNavigation-Logo">
-          千葉県
+          <img src="/logo.svg" :alt="$t('Chiba')" />
         </div>
         <h1 class="SideNavigation-Heading">
           {{ $t('COVID-19') }}<br />{{ $t('Measures site') }}
@@ -37,7 +37,18 @@
           <v-divider v-show="item.divider" class="SideNavigation-Divider" />
         </v-container>
       </v-list>
-
+      <div class="SideNavigation-SponsorLinkContainer">
+        Powered by:<br />
+        <a href="https://mypl.net/" target="_blank" rel="noopener">
+          <img
+            class="mypl-logo"
+            src="/mypl_logo.png"
+            width="176px"
+            height="62px"
+            alt="まいぷれ"
+          />
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -49,9 +60,9 @@
     "Navi Close": "サイドメニュー項目を閉じる",
     "Chiba": "千葉県",
     "COVID-19": "新型コロナウイルス感染症",
-    "Measures site": "対策サイト",
+    "Measures site": "対策サイト（非公式）",
     "Chiba Prefecture Government": "千葉県",
-    "COVID-19 Task Force": "新型コロナウイルス感染症対策本部",
+    "Chiba COVID-19 Task Force": "新型コロナウイルス感染症対策本部",
     "The latest updates": "県内の最新感染動向",
     "About COVID-19": "新型コロナウイルス感染症について",
     "About Telephone Center": "電話窓口について",
@@ -126,18 +137,14 @@ export default {
         },
         {
           title: this.$t('Government official website'),
-<<<<<<< HEAD
-          link: 'https://www.pref.chiba.jp/',
-=======
           link: 'https://www.pref.chiba.lg.jp/',
->>>>>>> 3846cb258ab8c86a4540516bc8f8e9fcbbdb89f3
           divider: true
-        },
+        }/*,
         {
           title: this.$t('Other local Government'),
           link: '/government',
           divider: true
-        }
+        }*/
       ]
     },
     isClass() {
