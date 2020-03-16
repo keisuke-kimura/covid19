@@ -68,10 +68,10 @@
     "About Telephone Center": "電話窓口について",
     "Returnee and Contact Center": "帰国者・接触者相談センターについて",
     "for Citizens": "県民の皆様へ",
+    "Event Info": "観光イベントの中止・延期について",
     "for Enterprises and Employees": "企業の皆様・はたらく皆様へ",
     "Official statements from Task Force": "千葉県健康危機管理対策本部会議",
     "Government official website": "千葉県公式ホームページ",
-    "Event Info": "観光イベントの中止・延期について",
     "Message from Governor Omura": "知事からのメッセージ",
     "About us": "当サイトについて",
     "Other local Government": "他自治体の対策サイト"
