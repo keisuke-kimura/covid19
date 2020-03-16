@@ -37,7 +37,7 @@
           <v-divider v-show="item.divider" class="SideNavigation-Divider" />
         </v-container>
       </v-list>
-      <div class="SideNavigation-SponsorLinkContainer">
+      <div class="SideNavigation-SponsorLinkContainer sp-none">
         Powered by:<br />
         <a href="https://mypl.net/" target="_blank" rel="noopener">
           <img
