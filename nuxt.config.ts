@@ -46,7 +46,7 @@ const config: Configuration = {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: ''
+        content: 'https://chiba-covid19.mypl.net/ogp.png'
       },
       {
         hid: 'twitter:card',
