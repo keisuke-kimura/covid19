@@ -74,7 +74,8 @@
     "Government official website": "千葉県公式ホームページ",
     "Message from Governor Omura": "知事からのメッセージ",
     "About us": "当サイトについて",
-    "Other local Government": "他自治体の対策サイト"
+    "Other local Government": "他自治体の対策サイト",
+    "Article Info": "新型コロナウイルス感染症の千葉県内のニュースやお役立ち情報"
   }
 }
 </i18n>
@@ -139,12 +140,12 @@ export default {
           title: this.$t('Government official website'),
           link: 'https://www.pref.chiba.lg.jp/',
           divider: true
-        }/*,
+        },
         {
-          title: this.$t('Other local Government'),
-          link: '/government',
+          title: this.$t('Article Info'),
+          link: 'https://funabashi.mypl.net/article/news_chiba/35626',
           divider: true
-        }*/
+        }
       ]
     },
     isClass() {
