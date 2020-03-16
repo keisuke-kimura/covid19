@@ -174,7 +174,7 @@ const config: Configuration = {
   },
   manifest: {
     name: '千葉県 新型コロナウイルス感染症対策サイト（非公式）',
-    theme_color: '#004BED',
+    theme_color: '#0c6eb8',
     background_color: '#ffffff',
     display: 'standalone',
     Scope: '/',
