@@ -106,6 +106,17 @@
       </v-col>
       -->
     </v-row>
+    <div class="footer pc-none">
+        Powered by:
+        <a href="https://mypl.net/" target="_blank" rel="noopener">
+          <img
+            class="mypl-logo"
+            src="/mypl_logo.png"
+            width="80px"
+            alt="まいぷれ"
+          />
+        </a>
+    </div>
   </div>
 </template>
 
