@@ -244,6 +244,7 @@ export default {
   overflow-x: hidden;
   overflow-y: auto;
   height: 100vh;
+  padding-bottom: 50px;
   @include lessThan($small) {
     position: absolute;
     top: 0;
