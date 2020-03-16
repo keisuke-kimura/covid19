@@ -240,6 +240,8 @@ export default {
   }
 }
 .open {
+  overflow-x: hidden;
+  overflow-y: auto;
   @include lessThan($small) {
     position: fixed;
     top: 0;
@@ -263,6 +265,10 @@ export default {
   .sp-none {
     display: none;
   }
+}
+
+.SideNavigation-SponsorLinkContainer {
+  margin: 0 0 30px 0;
 }
 
 </style>
