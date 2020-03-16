@@ -30,7 +30,7 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://chiba-covid19.mypl.net/stopcovid19.code4.nagoya/ogp.png'
+        content: 'https://chiba-covid19.mypl.net/'
       },
       {
         hid: 'og:title',
