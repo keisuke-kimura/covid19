@@ -56,10 +56,7 @@ const config: Configuration = {
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-      },
-      {
-        hid: 'twitter:creator',
-        name: 'twitter:creator',
+        content: 'https://chiba-covid19.mypl.net/'
       },
       {
         hid: 'twitter:image',
