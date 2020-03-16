@@ -37,18 +37,18 @@
           <v-divider v-show="item.divider" class="SideNavigation-Divider" />
         </v-container>
       </v-list>
-    </div>
-    <div class="SideNavigation-SponsorLinkContainer">
-      Powered by:<br />
-      <a href="https://mypl.net/" target="_blank" rel="noopener">
-        <img
-          class="mypl-logo"
-          src="/mypl_logo.png"
-          width="176px"
-          height="62px"
-          alt="まいぷれ"
-        />
-      </a>
+      <div class="SideNavigation-SponsorLinkContainer">
+        Powered by:<br />
+        <a href="https://mypl.net/" target="_blank" rel="noopener">
+          <img
+            class="mypl-logo"
+            src="/mypl_logo.png"
+            width="176px"
+            height="62px"
+            alt="まいぷれ"
+          />
+        </a>
+      </div>
     </div>
   </div>
 </template>

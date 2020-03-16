@@ -94,10 +94,6 @@
         >GitHub リポジトリ</a
       >をご確認ください。
     </TextCard>
-    <TextCard title="お問い合わせ先">
-      xxxxxxxxxx<br />
-      <a href="xxxx">xxxxx</a>
-    </TextCard>
   </div>
 </template>
 
