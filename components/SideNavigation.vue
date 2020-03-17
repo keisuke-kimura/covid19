@@ -64,7 +64,9 @@
     "Chiba Prefecture Government": "千葉県",
     "Chiba COVID-19 Task Force": "新型コロナウイルス感染症対策本部",
     "The latest updates": "県内の最新感染動向",
-    "About COVID-19": "新型コロナウイルス感染症について",
+    "About COVID-19": "県民の皆さまへ",
+    "COVID-19 Q&A": "新型コロナウイルス肺炎についてQ&A",
+    "Education": "教育に関する情報について",
     "About Telephone Center": "電話窓口について",
     "Returnee and Contact Center": "帰国者・接触者相談センターについて",
     "for Citizens": "県民の皆様へ",
@@ -105,6 +107,11 @@ export default {
           icon: 'covid',
           title: this.$t('About COVID-19'),
           link: 'https://www.pref.chiba.lg.jp/shippei/kansenshou/2019-ncov.html',
+        },
+        {
+          icon: 'qa',
+          title: this.$t('COVID-19 Q&A'),
+          link: 'https://www.pref.chiba.lg.jp/eiken/c-idsc/covid19qa.html',
           divider: true
         },
         {
@@ -117,6 +124,11 @@ export default {
           icon: 'mdi-domain',
           title: this.$t('for Enterprises and Employees'),
           link: '/worker',
+        },
+        {
+          icon: 'education',
+          title: this.$t('Education'),
+          link: '/education',
           divider: true
         },
         {
