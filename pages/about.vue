@@ -4,7 +4,7 @@
       当サイトについて
     </h2>
     <TextCard>
-      当サイトは、千葉県内の新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、千葉県内外の有志が開設したものです。<br />
+      当サイトは、千葉県内の新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、<a href="https://mypl.net" target="_blank">地域情報サイト「まいぷれ」</a>の協力のもと、千葉県内外のエンジニア・デザイナー有志が開設したものです。<br />
       <br />
       複製・改変が許されたオープンソースライセンスで公開されている、<a target="_blank" href="https://stopcovid19.metro.tokyo.lg.jp/">東京都公式新型コロナウイルス対策サイト</a>の<a target="_blank" href="https://github.com/tokyo-metropolitan-gov/covid19" rel="noopener">仕組み</a>を利用しています。<br />
       <br />
